@@ -1,8 +1,8 @@
-# 小林遼太(naipaka)の職務経歴書
+# Ryota Kobayashi (naipaka) resume
 
-[日本語 | [English](https://github.com/naipaka/Resume/blob/master/README.en.md)]
+[[日本語](https://github.com/naipaka/Resume) | English]
 
-## Data
+## Date
 
 - [GitHub Pages](https://naipaka.github.io/Resume)
 - [PDF](https://github.com/naipaka/Resume/releases)
@@ -12,18 +12,18 @@
 
 ### 💅 Lint text
 
-[textlint](https://github.com/textlint/textlint) での自動校正が可能です。
+Automatic proofreading with [textlint](https://github.com/textlint/textlint).
 
 ```
 $ yarn lint --fix
 ```
 
-[husky](https://github.com/typicode/husky) によって commit 前にも自動で実行されます。  
-校正のルールは`.textlintrc`に記載しています。
+It is also automatically executed when pre-commit by [husky](https://github.com/typicode/husky).  
+proofreading rules are set with `.textlintrc`.
 
 ### 📝 Convert MD to PDF
 
-[md-to-pdf](https://www.npmjs.com/package/md-to-pdf) での PDF 生成が可能です。
+You can generate PDF with [md-to-pdf](https://www.npmjs.com/package/md-to-pdf).
 
 ```
 $ yarn build:pdf
@@ -33,7 +33,7 @@ The output PDF can be styled as you like with CSS. Edit the `pdf-configs/style.c
 
 ### 🛠 Create release
 
-`v**` tag をつけて push すると GitHub Actions でビルドが走り、PDF の生成、Release の作成、Assets へ PDF の登録が実行されます。
+When you push with a `v**` tag, GitHub Actions will run the build, generate the PDF, create a Release, and register the PDF to Assets.
 
 ```
 $ git commit -m "add job"
@@ -43,14 +43,14 @@ $ git push origin --tags
 
 ### 📆 Remind update
 
-GitHub Actions の schedule trigger で 3 ヶ月に 1 回、職務経歴書の内容更新を促す issue が自動生成されます。
+Automatically generate issues every three months with GitHub Actions Schedules triggers to prompt you to update your resume.
 
 To change the duration or stop the job, edit `.github/workflows/create-issue.yml`.  
 To change the issue contents, edit `.github/ISSUE_TEMPLATE.md`.
 
 ### 💡 References
 
-この職務経歴書は下記を参考に作成しています。🙇‍♂️
+This resume is created based on the following.🙇‍♂️
 
 - [GitHub の機能をフルに使って職務経歴書の継続的インテグレーションを実現する](https://zenn.dev/ryo_kawamata/articles/resume-on-github)
 - [resume-template](https://github.com/kawamataryo/resume-template)
