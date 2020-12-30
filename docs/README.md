@@ -121,7 +121,7 @@
 
 - プロジェクト詳細
 
-  - 配送サービスシステム（iOS、Android、Web、API)の新規開発
+  - 配送サービスシステム（iOS、Android、Web、API）の新規開発
   - API の新規機能開発をメインに従事
   - Swagger を用いて API 定義
   - 業務経験が浅いメンバーに対して業務および実装のサポート
@@ -190,7 +190,7 @@
 
 - プロジェクト詳細
 
-  - WebRTC を用いたビデオ通話システム（Web)の実証調査
+  - WebRTC を用いたビデオ通話システム（Web）の実証調査
   - ビデオ通話しつつ動画も 双方から再生・停止ができるシステムの開発
 
 - 使用技術・ツール
@@ -270,7 +270,7 @@
 
 ---
 
-上記以前は、主に Java や TypeScript を使った BtoB システム開発に従事しながら、個人で iOS アプリ開発を行っていました。
+上記以前は、主に Java や TypeScript を使った BtoB システム開発に従事しながら、個人で iOS アプリを開発していました。
 
 ---
 
@@ -278,15 +278,15 @@
 
 ### 個人開発
 
-- 次いつ晴れる？　: [iOS](https://apps.apple.com/jp/app/%E6%AC%A1%E3%81%84%E3%81%A4%E6%99%B4%E3%82%8C%E3%82%8B/id1537055268)
+- 次いつ晴れる？　:[iOS](https://apps.apple.com/jp/app/%E6%AC%A1%E3%81%84%E3%81%A4%E6%99%B4%E3%82%8C%E3%82%8B/id1537055268)
 
   - リリース日：2020/10/25
   - SwiftUI + Combine で実装
   - MVVM アーキテクチャを採用
   - iOS14 から搭載された ウィジェット 機能を実装
-  - OSS としてソース公開中（https://github.com/naipaka/NextSunnyDay-iOS）
+  - OSS としてソース公開中 https://github.com/naipaka/NextSunnyDay-iOS
 
-- 掃除管理を家族と共有-PikaPika: [iOS](https://apps.apple.com/jp/app/%E6%8E%83%E9%99%A4%E7%AE%A1%E7%90%86%E3%82%92%E5%AE%B6%E6%97%8F%E3%81%A8%E5%85%B1%E6%9C%89-pikapika/id1521863528)/[Android](https://play.google.com/store/apps/details?id=com.naipaka.pikapika)
+- 掃除管理を家族と共有 PikaPika:[iOS](https://apps.apple.com/jp/app/%E6%8E%83%E9%99%A4%E7%AE%A1%E7%90%86%E3%82%92%E5%AE%B6%E6%97%8F%E3%81%A8%E5%85%B1%E6%9C%89-pikapika/id1521863528)/[Android](https://play.google.com/store/apps/details?id=com.naipaka.pikapika)
 
   - リリース日：2020/07/06
   - Flutter x Firebase で実装
@@ -294,7 +294,7 @@
   - Provider を使って状態管理
   - 2020 年 12 月現在、ユーザー数 1000 人突破、MAU500 突破
 
-- PinMusubi -中間地点から探すスポット検索アプリ-: [iOS](https://apps.apple.com/jp/app/pinmusubi-%E4%B8%AD%E9%96%93%E5%9C%B0%E7%82%B9%E3%81%8B%E3%82%89%E6%8E%A2%E3%81%99%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88%E6%A4%9C%E7%B4%A2%E3%82%A2%E3%83%97%E3%83%AA/id1489074206)
+- PinMusubi 中間地点から探すスポット検索アプリ：[iOS](https://apps.apple.com/jp/app/pinmusubi-%E4%B8%AD%E9%96%93%E5%9C%B0%E7%82%B9%E3%81%8B%E3%82%89%E6%8E%A2%E3%81%99%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88%E6%A4%9C%E7%B4%A2%E3%82%A2%E3%83%97%E3%83%AA/id1489074206)
 
   - リリース日：2019/11/25
   - Swift x Firebase で実装
@@ -302,7 +302,7 @@
   - 複数の外部 API と連携してコンテンツを表示
   - 2020 年 12 月現在、ダウンロード数 3700 突破
 
-- Today's ToDo: [iOS](https://apps.apple.com/jp/app/todays-todo/id1460136681)
+- Today's ToDo:[iOS](https://apps.apple.com/jp/app/todays-todo/id1460136681)
 
   - リリース日：2019/04/22
   - Swift のみで実装
@@ -340,7 +340,7 @@
 
 ### 学習
 
-学習の意味で今まで使用したことがなかった技術を使ったサンプルアプリを公開しています
+学習の意味で今まで使用したことがなかった技術を使ったサンプルアプリを公開しています。
 
 - [顔認識アプリ](https://github.com/naipaka/FaceDetectionApp)
   - iOS の標準フレームワークである Vision Framework を使用
@@ -362,4 +362,4 @@
 - 2018/06 応用情報技術者
 - 2019/07 Java Silver
 
-以上
+以上。
