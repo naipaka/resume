@@ -81,7 +81,7 @@
 
   - 設計、コーディング、コードレビュー、テスト、実装サポート
 
-- プロジェクト詳細
+- プロジェクト詳細：
 
   - スクラムによるアジャイル開発
   - Flutter によるアプリ開発、新機能の実装
@@ -106,7 +106,7 @@
 
   - 設計、コーディング、コードレビュー、テスト、実装サポート
 
-- プロジェクト詳細
+- プロジェクト詳細：
 
   - 配送サービスシステム（iOS、Android、Web、API）の新規開発
   - API の新規機能開発をメインに従事
@@ -131,7 +131,7 @@
 
   - 要件詰め、設計、コーディング、コードレビュー、テスト、ドキュメント作成
 
-- プロジェクト詳細
+- プロジェクト詳細：
 
   - LINE Bot API を用いたキャンペーンシステムの新規開発
   - Django による管理画面実装
@@ -155,7 +155,7 @@
 
   - 設計、コーディング
 
-- プロジェクト詳細
+- プロジェクト詳細：
 
   - WebRTC を用いたビデオ通話システム（Web）の実証調査
   - ビデオ通話しつつ動画も 双方から再生・停止ができるシステムの開発
@@ -177,7 +177,7 @@
 
   - 不具合原因調査、不具合修正、コードレビュー、新機能開発
 
-- プロジェクト詳細
+- プロジェクト詳細：
 
   - スマホで面接ができるサービスのアプリ開発
   - Swift による iOS アプリの不具合修正・エンハンス
@@ -204,7 +204,7 @@
 
   - 詳細設計作成、機能改修実装、ユニットテスト
 
-- プロジェクト詳細
+- プロジェクト詳細：
 
   - 医療期間向けの業務管理向けシステムの改修
 
@@ -218,7 +218,7 @@
 
 ### 個人開発
 
-- 次いつ晴れる？　: [iOS](https://apps.apple.com/jp/app/%E6%AC%A1%E3%81%84%E3%81%A4%E6%99%B4%E3%82%8C%E3%82%8B/id1537055268)
+- 次いつ晴れる？　： [iOS](https://apps.apple.com/jp/app/%E6%AC%A1%E3%81%84%E3%81%A4%E6%99%B4%E3%82%8C%E3%82%8B/id1537055268)
 
   - リリース日：2020/10/25
   - SwiftUI + Combine で実装
@@ -226,7 +226,7 @@
   - iOS14 から搭載された ウィジェット 機能を実装
   - OSS としてソース公開中 https://github.com/naipaka/NextSunnyDay-iOS
 
-- 掃除管理を家族と共有 PikaPika: [iOS](https://apps.apple.com/jp/app/%E6%8E%83%E9%99%A4%E7%AE%A1%E7%90%86%E3%82%92%E5%AE%B6%E6%97%8F%E3%81%A8%E5%85%B1%E6%9C%89-pikapika/id1521863528)/[Android](https://play.google.com/store/apps/details?id=com.naipaka.pikapika)
+- 掃除管理を家族と共有 PikaPika： [iOS](https://apps.apple.com/jp/app/%E6%8E%83%E9%99%A4%E7%AE%A1%E7%90%86%E3%82%92%E5%AE%B6%E6%97%8F%E3%81%A8%E5%85%B1%E6%9C%89-pikapika/id1521863528)/[Android](https://play.google.com/store/apps/details?id=com.naipaka.pikapika)
 
   - リリース日：2020/07/06
   - Flutter x Firebase で実装
@@ -242,7 +242,7 @@
   - 複数の外部 API と連携してコンテンツを表示
   - 2020 年 12 月現在、ダウンロード数 3700 突破
 
-- Today's ToDo: [iOS](https://apps.apple.com/jp/app/todays-todo/id1460136681)
+- Today's ToDo： [iOS](https://apps.apple.com/jp/app/todays-todo/id1460136681)
 
   - リリース日：2019/04/22
   - Swift のみで実装
@@ -266,7 +266,7 @@
 
   - 新規機能実装、コードレビュー
 
-- プロジェクト詳細
+- プロジェクト詳細：
 
   - Flutter による新規アプリ開発
   - Provider 導入
