@@ -46,19 +46,9 @@
 ### その他
 
 - Firebase
-  - Cloud Firestore
-  - Cloud Functions
-  - Authentication
-  - Hosting
-  - Crashlytics
-  - Google Analytics
-  - Remote Config
-  - Dynamic Links
+  - Cloud Firestore/Cloud Functions/Authentication/Hosting/Crashlytics/Google Analytics/Remote Config/Dynamic Links
 - AWS
-  - AWS Lambda
-  - AWS Cognite
-  - Amazon Simple Storage Service (S3)
-  - Amazon CloudWatch
+  - AWS Lambda/AWS Cognite/Amazon Simple Storage Service (S3)/Amazon CloudWatch
 - LineBot (API)
 - WebRTC
 
@@ -89,6 +79,14 @@
   - テストコード導入
   - 機能実現可否検討
 
+- 使用技術
+
+  - Dart/Flutter/Firebase
+
+- ツール
+
+  - Git/GitHub/Subversion/Jira Software/Confluence/Mattermost/AdobeXD
+
 ---
 
 **配送サービスシステム開発（形態：受託）**
@@ -113,6 +111,14 @@
   - Swagger を用いて API 定義
   - 業務経験が浅いメンバーに対して業務および実装のサポート
   - 社内ブログでの技術記事投稿
+
+- 使用技術
+
+  - Grails/Swift/Kotlin/AWS Cognite
+
+- ツール
+
+  - Git/GitLab/Swagger
 
 ---
 
@@ -139,6 +145,14 @@
   - お客様と QA でやり取りしつつ、要件を固め、設計・実装
   - システムの使用方法に関するドキュメント作成
 
+- 使用技術
+
+  - Django/Python/Firebase
+
+- ツール
+
+  - Git/GitHub/Subversion/Amazon Simple Storage Service (S3)/AWS Lambda/LINE Bot API
+
 ---
 
 **WebRTC システム実現可否調査（形態：受託）**
@@ -159,6 +173,14 @@
 
   - WebRTC を用いたビデオ通話システム（Web）の実証調査
   - ビデオ通話しつつ動画も 双方から再生・停止ができるシステムの開発
+
+- 使用技術
+
+  - WebRTC/Node.js/Firebase Hosting
+
+- ツール
+
+  - Git/GitHub
 
 ---
 
@@ -186,6 +208,14 @@
   - fastlane match による iOS 証明書管理
   - Firebase Crashlytics やログによる不具合原因調査
 
+- 使用技術
+
+  - Swift/Kotlin/Java/Remote Config/Crashlytics/Amazon Simple Storage Service (S3)
+
+- ツール
+
+  - Git/GitHub/fastlane/Bitrise/DeployGate
+
 ---
 
 ### NEC ソリューションイノベータ株式会社（2018/04〜2019/12）
@@ -207,6 +237,14 @@
 - プロジェクト詳細：
 
   - 医療期間向けの業務管理向けシステムの改修
+
+- 使用技術
+
+  - Visual Basic.NET/TypeScript/Angular
+
+- ツール
+
+  - Subversion/Redmine
 
 ---
 
@@ -232,7 +270,7 @@
   - Flutter x Firebase で実装
   - MVVM アーキテクチャを採用
   - Provider を使って状態管理
-  - 2020 年 12 月現在、ユーザー数 1000 人突破、MAU500 突破
+  - 2020 年 12 月現在、ユーザー数 1000 人突破、MAU600 突破
 
 - PinMusubi 中間地点から探すスポット検索アプリ： [iOS](https://apps.apple.com/jp/app/pinmusubi-%E4%B8%AD%E9%96%93%E5%9C%B0%E7%82%B9%E3%81%8B%E3%82%89%E6%8E%A2%E3%81%99%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88%E6%A4%9C%E7%B4%A2%E3%82%A2%E3%83%97%E3%83%AA/id1489074206)
 
@@ -270,6 +308,7 @@
 
   - Flutter による新規アプリ開発
   - Provider 導入
+  - パッケージ選定
 
 ### 学習
 
