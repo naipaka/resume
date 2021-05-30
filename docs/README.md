@@ -9,7 +9,7 @@
 | GitHub   | [naipaka](https://github.com/naipaka)                  |
 | Twitter  | [@naipakapaka](https://twitter.com/naipakapaka)        |
 | Qiita    | [@naipaka](https://qiita.com/naipaka)                  |
-| Blog     | [あるぱかになりたい](https://naipaka.hatenablog.com/)  |
+| Blog     | [ないぱか図鑑](https://naipaka.hatenablog.com/)        |
 | note     | [naipaka](https://note.com/naipaka)                    |
 | Wantedly | [プロフィール](https://www.wantedly.com/id/k_ryota_12) |
 
@@ -46,7 +46,7 @@
 ### その他
 
 - Firebase
-  - Cloud Firestore/Cloud Functions/Authentication/Hosting/Crashlytics/Google Analytics/Remote Config/Dynamic Links
+  - Cloud Firestore/Cloud Functions/Authentication/Hosting/Crashlytics/Google Analytics/Remote Config/Dynamic Links/A/B Testing
 - AWS
   - AWS Lambda/AWS Cognite/Amazon Simple Storage Service (S3)/Amazon CloudWatch
 - LineBot (API)
@@ -64,7 +64,7 @@
 
 - プロジェクト規模：
 
-  - 平均 8〜10 人の開発チーム
+  - 平均 8〜10 人の開発チーム × 3 チーム
   - 他、Web/デザインチーム
 
 - 役割：
@@ -73,10 +73,11 @@
 
 - プロジェクト詳細：
 
+  - 100 万人以上のユーザーが使う大規模アプリ開発
   - スクラムによるアジャイル開発
   - Flutter によるアプリ開発、新機能の実装
-  - Flutter に関する知識の共有
-  - テストコード導入
+  - Flutter に関する知識提供
+  - テストコード導入（Flutter Test、 Flutter Driver）
   - 機能実現可否検討
 
 - 使用技術
@@ -270,7 +271,7 @@
   - Flutter x Firebase で実装
   - MVVM アーキテクチャを採用
   - Provider を使って状態管理
-  - 2020 年 12 月現在、ユーザー数 1000 人突破、MAU600 突破
+  - 2021 年 6 月現在、登録ユーザー数 5000 人突破、MAU2000 突破
 
 - PinMusubi 中間地点から探すスポット検索アプリ： [iOS](https://apps.apple.com/jp/app/pinmusubi-%E4%B8%AD%E9%96%93%E5%9C%B0%E7%82%B9%E3%81%8B%E3%82%89%E6%8E%A2%E3%81%99%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88%E6%A4%9C%E7%B4%A2%E3%82%A2%E3%83%97%E3%83%AA/id1489074206)
 
@@ -278,7 +279,7 @@
   - Swift x Firebase で実装
   - MVP アーキテクチャを採用
   - 複数の外部 API と連携してコンテンツを表示
-  - 2020 年 12 月現在、ダウンロード数 3700 突破
+  - 2021 年 6 月現在、ダウンロード数 5000 突破
 
 - Today's ToDo： [iOS](https://apps.apple.com/jp/app/todays-todo/id1460136681)
 
