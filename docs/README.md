@@ -59,33 +59,22 @@
 **通信系アプリ開発（形態：SES）**
 
 - 期間：
-
   - 2020/11〜現在
-
 - プロジェクト規模：
-
   - 平均 8〜10 人の開発チーム × 3 チーム
   - 他、Web/デザインチーム
-
 - 役割：
-
   - 設計、コーディング、コードレビュー、テスト、実装サポート
-
 - プロジェクト詳細：
-
   - 100 万人以上のユーザーが使う大規模アプリ開発
   - スクラムによるアジャイル開発
   - Flutter によるアプリ開発、新機能の実装
   - Flutter に関する知識提供
   - テストコード導入（Flutter Test、 Flutter Driver）
   - 機能実現可否検討
-
 - 使用技術
-
   - Dart/Flutter/Firebase
-
 - ツール
-
   - Git/GitHub/Subversion/Jira Software/Confluence/Mattermost/AdobeXD
 
 ---
@@ -93,32 +82,21 @@
 **配送サービスシステム開発（形態：受託）**
 
 - 期間：
-
   - 2020/07〜2020/10
     - ※他の PJ と被っている期間は掛け持ちして業務に従事
-
 - プロジェクト規模：
-
   - 平均 5 人の開発チーム
-
 - 役割：
-
   - 設計、コーディング、コードレビュー、テスト、実装サポート
-
 - プロジェクト詳細：
-
   - 配送サービスシステム（iOS、Android、Web、API）の新規開発
   - API の新規機能開発をメインに従事
   - Swagger を用いて API 定義
   - 業務経験が浅いメンバーに対して業務および実装のサポート
   - 社内ブログでの技術記事投稿
-
 - 使用技術
-
   - Grails/Swift/Kotlin/AWS Cognite
-
 - ツール
-
   - Git/GitLab/Swagger
 
 ---
@@ -126,32 +104,21 @@
 **キャンペーン管理システム開発（形態：受託）**
 
 - 期間：
-
   - 2020/05〜2020/10
     - ※他の PJ と被っている期間は掛け持ちして業務に従事
-
 - プロジェクト規模：
-
   - 3 人の開発チーム
-
 - 役割：
-
   - 要件詰め、設計、コーディング、コードレビュー、テスト、ドキュメント作成
-
 - プロジェクト詳細：
-
   - LINE Bot API を用いたキャンペーンシステムの新規開発
   - Django による管理画面実装
   - Google Cloud Vision API によるレシート OCR 実装
   - お客様と QA でやり取りしつつ、要件を固め、設計・実装
   - システムの使用方法に関するドキュメント作成
-
 - 使用技術
-
   - Django/Python/Firebase
-
 - ツール
-
   - Git/GitHub/Subversion/Amazon Simple Storage Service (S3)/AWS Lambda/LINE Bot API
 
 ---
@@ -159,28 +126,17 @@
 **WebRTC システム実現可否調査（形態：受託）**
 
 - 期間：
-
   - 2020/04〜2020/05
-
 - プロジェクト規模：
-
   - 3 人の開発チーム
-
 - 役割：
-
   - 設計、コーディング
-
 - プロジェクト詳細：
-
   - WebRTC を用いたビデオ通話システム（Web）の実証調査
   - ビデオ通話しつつ動画も 双方から再生・停止ができるシステムの開発
-
 - 使用技術
-
   - WebRTC/Node.js/Firebase Hosting
-
 - ツール
-
   - Git/GitHub
 
 ---
@@ -188,33 +144,22 @@
 **AI 面接サービスアプリ開発（形態：受託）**
 
 - 期間：
-
   - 2020/01〜2020/04
-
 - プロジェクト規模：
-
   - 4 人のアプリ開発チーム
   - 他、サーバーサイド開発チーム
-
 - 役割：
-
   - 不具合原因調査、不具合修正、コードレビュー、新機能開発
-
 - プロジェクト詳細：
-
   - スマホで面接ができるサービスのアプリ開発
   - Swift による iOS アプリの不具合修正・エンハンス
   - Kotlin・Java による Android アプリの不具合修正・エンハンス
   - fastlane、Bitrise、DeployGate による CI/CD 運用
   - fastlane match による iOS 証明書管理
   - Firebase Crashlytics やログによる不具合原因調査
-
 - 使用技術
-
   - Swift/Kotlin/Java/Remote Config/Crashlytics/Amazon Simple Storage Service (S3)
-
 - ツール
-
   - Git/GitHub/fastlane/Bitrise/DeployGate
 
 ---
@@ -224,27 +169,16 @@
 **医療機関向け業務管理システム開発（形態：受託）**
 
 - 期間：
-
   - 2019/11〜2019/12
-
 - プロジェクト規模：
-
   - 平均 10 人の開発チーム
-
 - 役割：
-
   - 詳細設計作成、機能改修実装、ユニットテスト
-
 - プロジェクト詳細：
-
   - 医療期間向けの業務管理向けシステムの改修
-
 - 使用技術
-
   - Visual Basic.NET/TypeScript/Angular
-
 - ツール
-
   - Subversion/Redmine
 
 ---
@@ -258,31 +192,24 @@
 ### 個人開発
 
 - 次いつ晴れる？　： [iOS](https://apps.apple.com/jp/app/%E6%AC%A1%E3%81%84%E3%81%A4%E6%99%B4%E3%82%8C%E3%82%8B/id1537055268)
-
   - リリース日：2020/10/25
   - SwiftUI + Combine で実装
   - MVVM アーキテクチャを採用
   - iOS14 から搭載された ウィジェット 機能を実装
   - OSS としてソース公開中 https://github.com/naipaka/NextSunnyDay-iOS
-
 - 掃除管理を家族と共有 PikaPika： [iOS](https://apps.apple.com/jp/app/%E6%8E%83%E9%99%A4%E7%AE%A1%E7%90%86%E3%82%92%E5%AE%B6%E6%97%8F%E3%81%A8%E5%85%B1%E6%9C%89-pikapika/id1521863528)/[Android](https://play.google.com/store/apps/details?id=com.naipaka.pikapika)
-
   - リリース日：2020/07/06
   - Flutter x Firebase で実装
   - MVVM アーキテクチャを採用
   - Provider を使って状態管理
   - 2021 年 6 月現在、登録ユーザー数 5000 人突破、MAU2000 突破
-
 - PinMusubi 中間地点から探すスポット検索アプリ： [iOS](https://apps.apple.com/jp/app/pinmusubi-%E4%B8%AD%E9%96%93%E5%9C%B0%E7%82%B9%E3%81%8B%E3%82%89%E6%8E%A2%E3%81%99%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88%E6%A4%9C%E7%B4%A2%E3%82%A2%E3%83%97%E3%83%AA/id1489074206)
-
   - リリース日：2019/11/25
   - Swift x Firebase で実装
   - MVP アーキテクチャを採用
   - 複数の外部 API と連携してコンテンツを表示
   - 2021 年 6 月現在、ダウンロード数 5000 突破
-
 - Today's ToDo： [iOS](https://apps.apple.com/jp/app/todays-todo/id1460136681)
-
   - リリース日：2019/04/22
   - Swift のみで実装
   - MVC アーキテクチャを採用
@@ -293,20 +220,13 @@
 **NPO 法人向けアプリの開発**
 
 - 期間：
-
   - 2020/11〜現在
-
 - プロジェクト規模：
-
   - 2〜3 人のアプリ開発チーム
   - 他、サーバーサイド開発チーム
-
 - 役割：
-
   - 新規機能実装、コードレビュー
-
 - プロジェクト詳細：
-
   - Flutter による新規アプリ開発
   - Provider 導入
   - パッケージ選定
