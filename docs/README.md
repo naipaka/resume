@@ -9,7 +9,7 @@
 | GitHub   | [naipaka](https://github.com/naipaka)                  |
 | Twitter  | [@naipakapaka](https://twitter.com/naipakapaka)        |
 | Qiita    | [@naipaka](https://qiita.com/naipaka)                  |
-| Blog     | [ないぱかの記録](https://naipaka.hatenablog.com/)        |
+| Blog     | [ないぱかの記録](https://naipaka.hatenablog.com/)      |
 | note     | [naipaka](https://note.com/naipaka)                    |
 | Wantedly | [プロフィール](https://www.wantedly.com/id/k_ryota_12) |
 
@@ -17,8 +17,8 @@
 
 ## 保有スキル
 
-- Swift による iOS ネイティブ開発
 - Flutter x Firebase によるアプリ設計・開発・リリース
+- Swift による iOS ネイティブ開発
 - fastlane による環境ごとのデプロイや Firebase の App Distribution を利用した stg 版アプリの配布
 - GitHub Actions による CI/CD 運用・構築
 - アジャイル・スクラム経験
@@ -27,8 +27,8 @@
 
 ### 言語
 
-- Swift
 - Dart
+- Swift
 - Java
 - Python
 - Kotlin
@@ -194,7 +194,7 @@
 
 - 次いつ晴れる？　： [iOS](https://apps.apple.com/jp/app/%E6%AC%A1%E3%81%84%E3%81%A4%E6%99%B4%E3%82%8C%E3%82%8B/id1537055268)
   - リリース日：2020/10/25
-  - SwiftUI + Combine で実装
+  - SwiftUI x Combine で実装
   - MVVM アーキテクチャを採用
   - iOS14 から搭載された ウィジェット 機能を実装
   - OSS としてソース公開中 https://github.com/naipaka/NextSunnyDay-iOS
@@ -202,8 +202,9 @@
   - リリース日：2020/07/06
   - Flutter x Firebase で実装
   - MVVM アーキテクチャを採用
-  - Provider を使って状態管理
-  - 2021 年 6 月末現在、登録ユーザー数 7000 人突破、MAU2300 突破
+  - Riverpod を使用した状態管理
+  - 2021 年 9 月末現在、登録ユーザー数 1.2 万 人突破、MAU3300 突破
+  - 2021 年 9 月に Provider から Riverpod へのリファクタ & デザインリニューアル
 - PinMusubi 中間地点から探すスポット検索アプリ： [iOS](https://apps.apple.com/jp/app/pinmusubi-%E4%B8%AD%E9%96%93%E5%9C%B0%E7%82%B9%E3%81%8B%E3%82%89%E6%8E%A2%E3%81%99%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88%E6%A4%9C%E7%B4%A2%E3%82%A2%E3%83%97%E3%83%AA/id1489074206)
   - リリース日：2019/11/25
   - Swift x Firebase で実装
@@ -233,7 +234,8 @@
   - Flutter によるアプリ開発
   - FVM 導入
   - Firebase 周りの不足機能追加
-    - Crashlytics や Firestore Securiry Rules など
+    - Crashlytics や Firestore Securiry Rules In-App Messaging など
+  - Trustdock 導入
 
 **NPO 法人向けアプリの開発**
 
