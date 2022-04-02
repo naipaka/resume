@@ -9,9 +9,9 @@
   "keywords": [],
   "devDependencies": {
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^2.0.1",
-    "husky": "^7.0.2",
-    "md-to-pdf": "^5.0.0",
-    "textlint": "^12.0.2",
+    "husky": "^7.0.4",
+    "md-to-pdf": "^5.1.0",
+    "textlint": "^12.1.1",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-filter-rule-whitelist": "^2.0.0",
     "textlint-rule-abbr-within-parentheses": "^1.0.2",
