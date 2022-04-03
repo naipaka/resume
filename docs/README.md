@@ -43,17 +43,14 @@
 
 ### 株式会社ライトコード（2020/01〜現在）
 
-<details open><summary>通信系アプリ開発</summary><div>
+**通信契約者向けアプリ開発**
 
-- 期間：
-  - 2020/11〜現在
-- 形態：
-  - 常駐開発
+- 期間：2020/11〜現在
+- 形態：常駐開発
 - プロジェクト規模：
   - 平均 8〜10 人の開発チーム × 3 チーム
   - 他、Web/デザインチーム
-- 役割：
-  - 設計、コーディング、コードレビュー、テスト、実装サポート
+- 役割：設計、コーディング、コードレビュー、テスト、実装サポート
 - プロジェクト詳細及び業務内容：
   - MAU500 万人以上のユーザーが使う大規模アプリ開発
   - スクラムによるアジャイル開発
@@ -62,10 +59,8 @@
   - テストコード実装（Flutter Test、 Flutter Driver）
   - 機能実現可否検討
   - Provider を使った状態管理
-- 使用技術：
-  - Dart/Flutter/Firebase
-- ツール：
-  - Git/GitLab/Subversion/Jira Software/Confluence/Mattermost/AdobeXD
+- 使用技術：Dart/Flutter/Firebase
+- ツール：Git/GitLab/Subversion/Jira Software/Confluence/Mattermost/AdobeXD
 - チームの課題や自身が工夫したこと：
   - 本業以外の副業や個人開発で得た知識の中で活かせるものを積極的に共有・ドキュメント化を行う
     - ウィジェットの分割の仕方や便利なパッケージ、導入しているパッケージの最新情報など
@@ -75,87 +70,58 @@
   - 他のチームの MergeRequest も全て目を通し、気になることがあれば積極的にコメントを行う
   - チームの中でのレビュアの負担の偏りやメンバーのスキルが向上していないという課題に対して、ランダムレビュア制度を導入
 
-</div></details>
+**配送サービスシステム開発**
 
-<details><summary>配送サービスシステム開発</summary><div>
-
-- 期間：
-  - 2020/07〜2020/10
-    - ※他の PJ と被っている期間は掛け持ちして業務に従事
-- 形態：
-  - 受託開発
-- プロジェクト規模：
-  - 平均 5 人の開発チーム
-- 役割：
-  - 設計、コーディング、コードレビュー、テスト、実装サポート
+- 期間：2020/07〜2020/10
+  - ※他の PJ と被っている期間は掛け持ちして業務に従事
+- 形態：受託開発
+- プロジェクト規模：平均 5 人の開発チーム
+- 役割：設計、コーディング、コードレビュー、テスト、実装サポート
 - プロジェクト詳細及び業務内容：
   - 配送サービスシステム（iOS、Android、Web、API）の新規開発
   - API の新規機能開発をメインに従事
   - Swagger を用いて API 定義
   - 業務経験が浅いメンバーに対して業務および実装のサポート
   - 社内ブログでの技術記事投稿
-- 使用技術：
-  - Grails/Swift/Kotlin/AWS Cognite
-- ツール：
-  - Git/GitLab/Swagger
+- 使用技術：Grails/Swift/Kotlin/AWS Cognite
+- ツール：Git/GitLab/Swagger
 
-</div></details>
+**キャンペーン管理システム開発**
 
-<details><summary>キャンペーン管理システム開発</summary><div>
-
-- 期間：
-  - 2020/05〜2020/10
-    - ※他の PJ と被っている期間は掛け持ちして業務に従事
-- 形態：
-  - 受託開発
-- プロジェクト規模：
-  - 3 人の開発チーム
-- 役割：
-  - 要件詰め、設計、コーディング、コードレビュー、テスト、ドキュメント作成
+- 期間：2020/05〜2020/10
+  - ※他の PJ と被っている期間は掛け持ちして業務に従事
+- 形態：受託開発
+- プロジェクト規模：3 人の開発チーム
+- 役割：要件詰め、設計、コーディング、コードレビュー、テスト、ドキュメント作成
 - プロジェクト詳細及び業務内容：
   - LINE Bot API を用いたキャンペーンシステムの新規開発
   - Django による管理画面実装
   - Google Cloud Vision API によるレシート OCR 実装
   - お客様と QA でやり取りしつつ、要件を固め、設計・実装
   - システムの使用方法に関するドキュメント作成
-- 使用技術：
-  - Django/Python/Firebase
-- ツール：
-  - Git/GitHub/Subversion/Amazon Simple Storage Service (S3)/AWS Lambda/LINE Bot API
+- 使用技術：Django/Python/Firebase
+- ツール：Git/GitHub/Subversion/Amazon Simple Storage Service (S3)/AWS Lambda/LINE Bot API
 
-</div></details>
+**WebRTC システム実現可否調査**
 
-<details><summary>WebRTC システム実現可否調査</summary><div>
-
-- 期間：
-  - 2020/04〜2020/05
-- 形態：
-  - 受託開発
-- プロジェクト規模：
-  - 3 人の開発チーム
-- 役割：
-  - 設計、コーディング
+- 期間：2020/04〜2020/05
+- 形態：受託開発
+- プロジェクト規模：3 人の開発チーム
+- 役割：設計、コーディング
 - プロジェクト詳細及び業務内容：
   - WebRTC を用いたビデオ通話システム（Web）の実証調査
   - ビデオ通話しつつ動画も 双方から再生・停止ができるシステムの開発
-- 使用技術：
-  - WebRTC/Node.js/Firebase Hosting
-- ツール：
-  - Git/GitHub
+- 使用技術：WebRTC/Node.js/Firebase Hosting
+- ツール：Git/GitHub
 
-</div></details>
+**AI 面接サービスアプリ開発**
 
-<details><summary>AI 面接サービスアプリ開発</summary><div>
-
-- 期間：
-  - 2020/01〜2020/04
-- 形態：
-  - 受託開発
+- 期間：2020/01〜2020/04
+- 形態：受託開発
 - プロジェクト規模：
   - 4 人のアプリ開発チーム
   - 他、サーバーサイド開発チーム
-- 役割：
-  - 不具合原因調査、不具合修正、コードレビュー、新機能開発
+- 役割：不具合原因調査、不具合修正、コードレビュー、新機能開発
 - プロジェクト詳細及び業務内容：
   - スマホで面接ができるサービスのアプリ開発
   - Swift による iOS アプリの不具合修正・エンハンス
@@ -163,33 +129,20 @@
   - fastlane、Bitrise、DeployGate による CI/CD 運用
   - fastlane match による iOS 証明書管理
   - Firebase Crashlytics やログによる不具合原因調査
-- 使用技術：
-  - Swift/Kotlin/Java/Remote Config/Crashlytics/Amazon Simple Storage Service (S3)
-- ツール：
-  - Git/GitHub/fastlane/Bitrise/DeployGate
-
-</div></details>
+- 使用技術：Swift/Kotlin/Java/Remote Config/Crashlytics/Amazon Simple Storage Service (S3)
+- ツール：Git/GitHub/fastlane/Bitrise/DeployGate
 
 ### NEC ソリューションイノベータ株式会社（2018/04〜2019/12）
 
-<details><summary>医療機関向け業務管理システム開発</summary><div>
+**医療機関向け業務管理システム開発**
 
-- 期間：
-  - 2019/11〜2019/12
-- 形態：
-  - 受託開発
-- プロジェクト規模：
-  - 平均 10 人の開発チーム
-- 役割：
-  - 詳細設計作成、機能改修実装、ユニットテスト
-- プロジェクト詳細及び業務内容：
-  - 医療期間向けの業務管理向けシステムの改修
-- 使用技術：
-  - Visual Basic.NET/TypeScript/Angular
-- ツール：
-  - Subversion/Redmine
-
-</div></details>
+- 期間：2019/11〜2019/12
+- 形態：受託開発
+- プロジェクト規模：平均 10 人の開発チーム
+- 役割：詳細設計作成、機能改修実装、ユニットテスト
+- プロジェクト詳細及び業務内容：医療期間向けの業務管理向けシステムの改修
+- 使用技術：Visual Basic.NET/TypeScript/Angular
+- ツール：Subversion/Redmine
 
 上記以前は、主に Java や TypeScript を使った BtoB システム開発に従事しながら、個人で iOS アプリを開発していました。
 
@@ -197,17 +150,13 @@
 
 ### 副業
 
-<details open><summary>福祉職向けアプリの開発</summary><div>
+**福祉職向けアプリの開発**
 
-- 期間：
-  - 2021/6〜現在
+- 期間：2021/6〜現在
 - プロジェクト規模：
   - 2〜3 人のアプリ開発チーム
   - 他、サーバーサイド開発チーム
-- 役割：
-  - 不足機能の実装
-  - リファクタリング
-  - コードレビュー
+- 役割：不足機能の実装、リファクタリング、コードレビュー
 - プロジェクト詳細及び業務内容：
   - Flutter によるアプリ開発
   - FVM 導入
@@ -225,36 +174,28 @@
   - アプリ側でレスポンスが扱いづらい課題があったため、サーバーサイドチームへ改善提案を行う
   - GitHub の disscussions を積極的に活用
 
-</div></details>
+**NPO 法人向けアプリの開発**
 
-<details><summary>NPO 法人向けアプリの開発</summary><div>
-
-- 期間：
-  - 2020/11〜2021/02
+- 期間：2020/11〜2021/02
 - プロジェクト規模：
   - 2〜3 人のアプリ開発チーム
   - 他、サーバーサイド開発チーム
-- 役割：
-  - 新規機能実装、コードレビュー
+- 役割：新規機能実装、コードレビュー
 - プロジェクト詳細及び業務内容：
   - Flutter による新規アプリ開発
   - Provider 導入
   - パッケージ選定
 
-</div></details>
-
 ### 個人開発
 
-<details open><summary>掃除管理を家族と共有 - PikaPika</summary><div>
+**掃除管理を家族と共有 - PikaPika**
 
 - 概要：
   - 複数人で共有して使える掃除スケジュール管理アプリ
   - 2021 年 9 月に Provider から Riverpod へのリファクタ & デザインリニューアル
   - 2022 年 4 月現在、登録ユーザー数 2.5 万 人突破、MAU5000 突破
-- リリース日：
-  - 2020/07/06
-- 対応 OS：
-  - [iOS](https://apps.apple.com/jp/app/%E6%8E%83%E9%99%A4%E7%AE%A1%E7%90%86%E3%82%92%E5%AE%B6%E6%97%8F%E3%81%A8%E5%85%B1%E6%9C%89-pikapika/id1521863528)/[Android](https://play.google.com/store/apps/details?id=com.naipaka.pikapika)
+- リリース日：2020/07/06
+- 対応 OS：[iOS](https://apps.apple.com/jp/app/%E6%8E%83%E9%99%A4%E7%AE%A1%E7%90%86%E3%82%92%E5%AE%B6%E6%97%8F%E3%81%A8%E5%85%B1%E6%9C%89-pikapika/id1521863528) / [Android](https://play.google.com/store/apps/details?id=com.naipaka.pikapika)
 - 使用技術：
   - Flutter x Firebase で実装
   - MVVM アーキテクチャを採用
@@ -272,53 +213,38 @@
   - Provider から Riverpod へのリファクタと Null Safety 対応
     - 既存の機能が損なわれないように、テスト項目を作成してリグレッション試験を行った
 
-</div></details>
-
-<details><summary>次いつ晴れる？</summary><div>
+**次いつ晴れる？**
 
 - 概要：
   - iOS のウィジェット機能を活用した次いつ晴れるのかが一目でわかるアプリ
   - OSS としてソースも公開中 https://github.com/naipaka/NextSunnyDay-iOS
-- リリース日：
-  - 2020/10/25
-- 対応 OS：
-  - [iOS](https://apps.apple.com/jp/app/%E6%AC%A1%E3%81%84%E3%81%A4%E6%99%B4%E3%82%8C%E3%82%8B/id1537055268)
+- リリース日：2020/10/25
+- 対応 OS：[iOS](https://apps.apple.com/jp/app/%E6%AC%A1%E3%81%84%E3%81%A4%E6%99%B4%E3%82%8C%E3%82%8B/id1537055268)
 - 使用技術：
   - SwiftUI x Combine で実装
   - MVVM アーキテクチャを採用
   - iOS14 から搭載された ウィジェット 機能を実装
 
-</div></details>
+**PinMusubi 中間地点から探すスポット検索アプリ**
 
-<details><summary>PinMusubi 中間地点から探すスポット検索アプリ</summary><div>
-
-- 概要：
-  - 中間地点をもとにレストランやスポットなどを提案するアプリ
-- リリース日：
-  - 2019/11/25
-- 対応 OS：
-  - [iOS](https://apps.apple.com/jp/app/pinmusubi-%E4%B8%AD%E9%96%93%E5%9C%B0%E7%82%B9%E3%81%8B%E3%82%89%E6%8E%A2%E3%81%99%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88%E6%A4%9C%E7%B4%A2%E3%82%A2%E3%83%97%E3%83%AA/id1489074206)
+- 概要：中間地点をもとにレストランやスポットなどを提案するアプリ
+- リリース日：2019/11/25
+- 対応 OS：[iOS](https://apps.apple.com/jp/app/pinmusubi-%E4%B8%AD%E9%96%93%E5%9C%B0%E7%82%B9%E3%81%8B%E3%82%89%E6%8E%A2%E3%81%99%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88%E6%A4%9C%E7%B4%A2%E3%82%A2%E3%83%97%E3%83%AA/id1489074206)
 - 使用技術：
   - Swift x Firebase で実装
   - MVP アーキテクチャを採用
   - 複数の外部 API と連携してコンテンツを表示
 
-</div></details>
-
-<details><summary>Today's ToDo</summary><div>
+**Today's ToDo**
 
 - 概要：
   - 1 日に 3 つまでしか登録できない TODO アプリ
   - 独学で Swift を学習して初めてリリースしたアプリ
-- リリース日：
-  - 2019/04/22
-- 対応 OS：
-  - [iOS](https://apps.apple.com/jp/app/todays-todo/id1460136681)
+- リリース日：2019/04/22
+- 対応 OS：[iOS](https://apps.apple.com/jp/app/todays-todo/id1460136681)
 - 使用技術：
   - Swift のみで実装
   - MVC アーキテクチャを採用
-
-</div></details>
 
 ## 意欲・興味
 
