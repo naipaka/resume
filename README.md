@@ -4,7 +4,7 @@
 
 ## Data
 
-- [GitHub Pages](https://naipaka.github.io/Resume)
+- [GitHub Pages](https://naipaka.github.io/resume)
 - [PDF](https://github.com/naipaka/Resume/releases)
 - [File](https://github.com/naipaka/Resume/blob/main/docs/README.md)
 
