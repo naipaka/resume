@@ -4,9 +4,9 @@
 
 ## Date
 
-- [GitHub Pages](https://naipaka.github.io/Resume)
-- [PDF](https://github.com/naipaka/Resume/releases)
-- [File](https://github.com/naipaka/Resume/blob/master/docs/README.md)
+- [GitHub Pages](https://naipaka.github.io/readme)
+- [PDF](https://github.com/naipaka/resume/releases)
+- [File](https://github.com/naipaka/Resume/blob/main/docs/README.md)
 
 ## Features
 
