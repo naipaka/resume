@@ -1,12 +1,12 @@
 # 小林遼太(naipaka)の職務経歴書
 
-[日本語 | [English](https://github.com/naipaka/Resume/blob/master/README.en.md)]
+[日本語 | [English](https://github.com/naipaka/Resume/blob/main/README.en.md)]
 
 ## Data
 
 - [GitHub Pages](https://naipaka.github.io/Resume)
 - [PDF](https://github.com/naipaka/Resume/releases)
-- [File](https://github.com/naipaka/Resume/blob/master/docs/README.md)
+- [File](https://github.com/naipaka/Resume/blob/main/docs/README.md)
 
 ## Features
 
