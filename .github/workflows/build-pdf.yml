@@ -1,6 +1,7 @@
 name: build pdf
 
 on:
+  workflow_dispatch:
   push:
     tags:
       - "v*"
@@ -8,19 +9,15 @@ on:
 jobs:
   build:
     name: build pdf and upload release
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
         with:
-          fetch-depth: 0
-      - uses: actions/setup-node@v4
-        with:
-          node-version-file: "package.json"
-          cache: "yarn"
-      - name: Install dependencies
-        run: yarn install --frozen-lockfile
+          node-version: "16"
+      - run: npm install
       - name: build pdf
-        run: yarn run build:pdf
+        run: npm run build:pdf
       - name: create release
         id: create_release
         uses: actions/create-release@v1
@@ -38,6 +35,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./docs/index.pdf
-          asset_name: index.pdf
+          asset_path: ./docs/README.pdf
+          asset_name: resume.pdf
           asset_content_type: application/pdf
