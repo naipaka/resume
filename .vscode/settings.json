@@ -10,6 +10,7 @@
         "Firestore",
         "JasonEtco",
         "Laravel",
+        "Logcat",
         "MVVM",
         "oapi-codegen",
         "PinMusubi",
@@ -19,6 +20,7 @@
         "Securiry",
         "Serverpod",
         "technote",
-        "Trustdock"
+        "Trustdock",
+        "Zenn"
     ]
 }
