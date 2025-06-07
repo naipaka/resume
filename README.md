@@ -31,6 +31,15 @@ $ yarn build:pdf
 
 The output PDF can be styled as you like with CSS. Edit the `pdf-configs/style.css`.
 
+### 🧑‍💻 Build
+
+ローカルで職務経歴書をビルドするには、以下のコマンドを実行します。
+
+```
+$ bundle install
+$ bundle exec jekyll serve --source docs --config docs/_config.yml
+```
+
 ### 🛠 Create release
 
 `v**` tag をつけて push すると GitHub Actions でビルドが走り、PDF の生成、Release の作成、Assets へ PDF の登録が実行されます。
