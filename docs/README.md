@@ -20,7 +20,7 @@
 - Flutter/Dart: 0→1 開発やリプレイス開発を5年間経験、iOS/Android/macOS 対応
 - サーバーサイド/インフラ: Go での REST API 開発、Firebase (Firestore/Functions/Authentication) を用いたバックエンド構築
 - 開発効率化: Custom Lint ルール作成で PR レビューコスト削減、CI/CD 構築でリリース自動化
-- 個人開発: MAU1万超のアプリを4年以上運用、登録ユーザー14万人
+- 個人開発: MAU1万超のアプリを5年以上運用、登録ユーザー14万人
 - 技術発信: Zenn で10本以上の技術記事を執筆、Flutter Tokyo で登壇
 
 ## 技術スタック
@@ -183,5 +183,9 @@ Altive 社内で使用している OSS への Pull Request や Issue 作成。
 ## 補足資料
 
 - [職務経歴 詳細](./details.md) - プロジェクトごとの詳細な業務内容を記載
+
+---
+
+最終更新日: 2025年11月20日
 
 以上
