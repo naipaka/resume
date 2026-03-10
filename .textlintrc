@@ -1,6 +1,9 @@
 {
   "filters": {
-    "comments": true
+    "comments": true,
+    "whitelist": {
+      "allow": ["/最終更新日.*$/m", "/^以上$/m"]
+    }
   },
   "rules": {
     "preset-ja-technical-writing": {
