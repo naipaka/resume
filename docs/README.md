@@ -14,6 +14,7 @@
 [![image](https://img.shields.io/badge/naipakapaka-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/naipakapaka)
 [![image](https://img.shields.io/badge/naipaka-3EA8FF?style=flat-square&logo=Zenn&logoColor=white)](https://zenn.dev/naipaka)
 [![image](https://img.shields.io/badge/naipaka-55C500?style=flat-square&logo=qiita&logoColor=white)](https://qiita.com/naipaka)
+[![Hatena Blog](https://img.shields.io/badge/naipaka-00A4DE?style=flat-square&logo=hatenabookmark&logoColor=white)](https://naipaka.hatenablog.com/)
 
 ## 保有スキル
 
