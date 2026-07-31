@@ -14,15 +14,16 @@
 [![image](https://img.shields.io/badge/naipakapaka-000000?style=flat-square&logo=x&logoColor=white)](https://x.com/naipakapaka)
 [![image](https://img.shields.io/badge/naipaka-3EA8FF?style=flat-square&logo=Zenn&logoColor=white)](https://zenn.dev/naipaka)
 [![image](https://img.shields.io/badge/naipaka-55C500?style=flat-square&logo=qiita&logoColor=white)](https://qiita.com/naipaka)
+[![Hatena Blog](https://img.shields.io/badge/naipaka-00A4DE?style=flat-square&logo=hatenabookmark&logoColor=white)](https://naipaka.hatenablog.com/)
 
 ## 保有スキル
 
-- Flutter/Dart: 0→1 開発やリプレイス開発を 5 年経験、iOS/Android/macOS 対応
-- サーバーサイド/インフラ： Go での REST API 開発、Firebase を用いたバックエンド構築
-- 開発効率化： Custom Lint ルール作成で PR レビューコスト削減、CI/CD 構築でリリース自動化
-- 個人開発： MAU 2 万超のアプリを 5 年以上運用、登録ユーザー20 万人超
-- 技術発信： Zenn 等で 20 本以上の技術記事を執筆、Flutter Tokyo 等で登壇
-- OSS 貢献： 自社 OSS への PR、外部パッケージへの Issue/PR、個人アプリの OSS 公開
+- Flutter/Dart によるモバイルアプリ開発：5 年以上にわたり、新規開発・リプレイス、技術選定、設計・実装・リリースを経験。iOS/Android/macOS に対応
+- 個人プロダクトの開発・長期運用：登録ユーザー 20 万人超、MAU 2 万超の掃除管理アプリを 6 年間運用。複数のアプリを開発・公開し、継続的に改善
+- 開発基盤・生産性改善：CI/CD、Custom Lint、OpenAPI による自動生成、Dart CLI ツールを導入・運用
+- チーム開発・プロセス改善：レビュー基準やレビュー制度の整備、新人の立ち上げ支援、質問・知見共有の仕組みづくり
+- Firebase・Go によるバックエンド開発：Firestore・Cloud Functions の設計・実装、Go REST API、Cloud Run・Cloud SQL・Docker を用いた実装
+- OSS 貢献・技術発信：Flutter/Dart 関連の Issue・PR、個人アプリの OSS 公開、30 本以上の技術記事執筆、Flutter Tokyo での登壇
 
 ## 技術スタック
 
@@ -39,13 +40,15 @@
 
 ## 職務経歴
 
-モバイルアプリ開発を中心に 7 年以上のエンジニア経験があります。
+エンジニアとして 8 年以上、うち 5 年以上は Flutter/Dart によるモバイルアプリ開発に携わってきました。
 
-大手 SIer でのシステム開発からキャリアをスタートし、個人開発がきっかけでモバイルアプリ開発に転向しました。
+新規開発やリプレイスに携わり、技術選定から設計・実装・リリースまで経験しています。
 
-その後、技術選定、アーキテクチャ設計、CI/CD 環境構築、コードレビュー基準策定などを担当し、開発チームが効率的に開発できる環境づくりを意識してきました。
+個人開発では、登録ユーザー 20 万人超の掃除管理アプリを 6 年間運用しています。
 
-副業や個人開発も並行して行い、MAU 2 万人を超えるアプリの運用や OSS への貢献、技術記事の執筆、勉強会登壇などを通じて得られた知見を外部に共有しています。
+CI/CD を構築・運用してリリースを自動化し、Custom Lint ルールの作成によって PR レビューコストを削減してきました。
+
+Flutter/Dart を中心に 30 本以上の技術記事を執筆し、Flutter Tokyo ではアプリの自動デプロイについて登壇しました。
 
 ### Altive 株式会社（2023/04〜現在）
 
@@ -144,7 +147,7 @@ Altive 社内で使用している OSS への Pull Request や Issue 作成を�
 - Features Layer Architecture、melos マルチパッケージ、Drift、Riverpod
 
 [掃除管理を家族と共有 - PikaPika](https://apps.apple.com/jp/app/%E6%8E%83%E9%99%A4%E7%AE%A1%E7%90%86%E3%82%92%E5%AE%B6%E6%97%8F%E3%81%A8%E5%85%B1%E6%9C%89-pikapika/id1521863528) (2020/07、iOS/Android)
-- 複数人で共有する掃除スケジュール管理アプリ（登録ユーザー 18 万人、MAU 2 万）
+- 複数人で共有する掃除スケジュール管理アプリ（登録ユーザー 20 万人超、MAU 2 万超）
 - Flutter/Firebase、MVVM、Riverpod、GitHub Actions/Codemagic
 
 [次いつ晴れる？](https://apps.apple.com/jp/app/%E6%AC%A1%E3%81%84%E3%81%A4%E6%99%B4%E3%82%8C%E3%82%8B/id1537055268) (2020/10、iOS)
@@ -200,6 +203,6 @@ Altive 社内で使用している OSS への Pull Request や Issue 作成を�
 
 ---
 
-最終更新日： 2026 年 1 月 3 日
+最終更新日： 2026 年 7 月 25 日
 
 以上
