@@ -1,5 +1,6 @@
 module.exports = {
   stylesheet: "./pdf-configs/style.css",
+  script: [{ path: "./pdf-configs/group-h5-sections.js" }],
   body_class: "markdown-body",
   marked_options: {
     headerIds: false,

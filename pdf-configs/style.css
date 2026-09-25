@@ -11,6 +11,28 @@ h1:first-child {
   text-align: center;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  break-after: avoid;
+}
+
+p {
+  break-inside: avoid;
+}
+
+li {
+  break-inside: avoid;
+}
+
+.h5-section {
+  break-inside: avoid-page;
+  page-break-inside: avoid;
+}
+
 table {
   font-size: 11px;
   border-collapse: collapse;
