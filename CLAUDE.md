@@ -27,7 +27,7 @@ bundle exec jekyll serve --source docs --config docs/_config.yml
 ## アーキテクチャ
 
 - **docs/README.md** — 職務経歴書の本体（単一ソースオブトゥルース）
-- **docs/details.md, docs/difficult-experiences.md** — 詳細な経歴・技術課題の補足ページ
+- **docs/details.md** — 詳細な経歴・技術課題の補足ページ
 - **pdf-configs/** — md-to-pdf の設定（config.js）とスタイル（style.css）
 - **docs/_config.yml** — Jekyll 設定（テーマ: cayman）
 
