@@ -5,6 +5,7 @@ module.exports = {
   marked_options: {
     headerIds: false,
     smartypants: true,
+    breaks: true,
   },
   pdf_options: {
     "format": "A4",
