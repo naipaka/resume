@@ -1,0 +1,154 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+// ライト・ダークの切り替えスイッチ
+.page-header {
+  position: relative;
+}
+
+.theme-switch {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 3.75rem;
+  height: 2rem;
+  padding: 0 0.45rem;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 1rem;
+  transition: background-color 0.2s, border-color 0.2s;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+
+  &:focus-visible {
+    outline: 2px solid rgba(255, 255, 255, 0.9);
+    outline-offset: 2px;
+  }
+}
+
+.theme-switch__icon {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  color: rgba(255, 255, 255, 0.6);
+  transition: color 0.2s;
+}
+
+// つまみ。ライトのときは左（太陽）、ダークのときは右（月）に寄る
+.theme-switch__thumb {
+  position: absolute;
+  top: 50%;
+  left: 0.2rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: #fff;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transform: translateY(-50%);
+  transition: transform 0.2s;
+}
+
+.theme-switch[aria-checked="false"] .theme-switch__icon--sun,
+.theme-switch[aria-checked="true"] .theme-switch__icon--moon {
+  color: #155799;
+}
+
+.theme-switch[aria-checked="true"] .theme-switch__thumb {
+  transform: translate(1.75rem, -50%);
+}
+
+// ダークモードの配色
+$dark-bg-color: #0d1117;
+$dark-surface-color: #161b22;
+$dark-border-color: #30363d;
+$dark-text-color: #c9d1d9;
+$dark-muted-text-color: #8b949e;
+$dark-heading-color: #3fb68b;
+$dark-link-color: #58a6ff;
+
+[data-theme="dark"] {
+  color-scheme: dark;
+
+  body {
+    color: $dark-text-color;
+    background-color: $dark-bg-color;
+  }
+
+  a {
+    color: $dark-link-color;
+  }
+
+  // ヘッダーのボタンは、本文のリンク色ではなくテーマ本来の白系の色のままにする
+  .btn {
+    color: rgba(255, 255, 255, 0.7);
+
+    &:hover {
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+
+  .page-header {
+    background-color: #0f5132;
+    background-image: linear-gradient(120deg, #173b63, #0f5132);
+  }
+
+  .main-content {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $dark-heading-color;
+    }
+
+    code {
+      color: $dark-text-color;
+      background-color: $dark-surface-color;
+    }
+
+    pre,
+    .highlight pre {
+      color: $dark-text-color;
+      background-color: $dark-surface-color;
+      border-color: $dark-border-color;
+    }
+
+    blockquote {
+      color: $dark-muted-text-color;
+      border-left-color: $dark-border-color;
+    }
+
+    table th,
+    table td {
+      border-color: $dark-border-color;
+    }
+
+    hr {
+      background-color: $dark-border-color;
+    }
+
+    kbd {
+      color: $dark-text-color;
+      background-color: $dark-surface-color;
+      border-color: $dark-border-color;
+    }
+  }
+
+  .site-footer {
+    border-top-color: $dark-border-color;
+  }
+
+  .site-footer-credits {
+    color: $dark-muted-text-color;
+  }
+}
