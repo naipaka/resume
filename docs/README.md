@@ -99,7 +99,7 @@ MVV の策定と経営ロードマップのたたき台づくり、リモート�
 
 Java や TypeScript を用いた BtoB システム開発を経験し、要件定義から設計、実装、テストまでの一連のプロセスを習得しました。
 
-並行して個人で iOS アプリ開発のスキルを磨き、後のモバイルアプリ開発キャリアの基礎を築きました。
+業務でプログラミングを学ぶうちに自分でもアプリを作れると気づき、個人で iOS アプリを作って App Store で公開しました。これがモバイルアプリ開発へ進むきっかけになりました。
 
 ## 業務外活動
 
@@ -137,30 +137,39 @@ Altive 社内で使用している OSS への Pull Request や Issue 作成を�
 リリースしている一部のアプリを OSS として公開しています。
 
 - [GitHub Issue Notes](https://github.com/naipaka/github-issue-notes): GitHub の Issue や Pull Request のページに個人的なメモを追加できる Chrome 拡張機能
-- [One Page](https://github.com/naipaka/onepage): 使いやすい UX を意識した最高にシンプルな日記アプリ
-- [次いつ晴れる？](https://github.com/naipaka/NextSunnyDay-iOS): iOS のウィジェット機能を活用した次いつ晴れるのかが一目でわかるアプリ
+- [One Page](https://github.com/naipaka/onepage): その日の出来事をさっと書いて、無限スクロールで振り返れる日記アプリ
+- [次いつ晴れる？](https://github.com/naipaka/NextSunnyDay-iOS): ホーム画面のウィジェットを見るだけで次に晴れる日がわかるアプリ
 
 ### 個人開発
 
-[GitHub Issue Notes](https://chromewebstore.google.com/detail/github-issue-notes/iodoilfmmpjkkcamhbmdjpbjecmgladm)（2026/01、Chrome 拡張機能）
-- GitHub の Issue や Pull Request のページに個人的なメモを追加できる Chrome 拡張機能
+身近な困りごとをもとにアプリを作り、公開後の運用や収益化まで自分で行っています。
+中でも掃除管理アプリ PikaPika は、ユーザーの声や数値を見ながら改善を続け、登録ユーザー 20 万人超、MAU 2 万超のアプリになりました。
+
+[掃除管理アプリ - PikaPika](https://apps.apple.com/jp/app/%E6%8E%83%E9%99%A4%E7%AE%A1%E7%90%86%E3%82%92%E5%AE%B6%E6%97%8F%E3%81%A8%E5%85%B1%E6%9C%89-pikapika/id1521863528)（2020/07〜、iOS/Android）
+- 一緒に暮らす人の間で、掃除が必要だと感じる基準の違いから不公平感が生まれるのを防ぐため、共通のルールを決めて分担できるアプリを作った
+- 企画、設計、実装から、リリース、収益化まで自分で行っている
+- 初回の導線を作り直して離脱を約 6 割から約 2 割に減らしたほか、レビュー依頼の見直し、広告と Pro プランの設計、10 言語への対応などを進めてきた
+- 国内外から届く要望をもとに、休暇中に掃除の予定を止める機能や、カレンダーでの予定表示、Apple Watch 対応などを追加した。既存の機能で解決できる要望には、機能を増やさず、使い方に気づけるよう画面の見せ方を変えて対応している
+- Flutter/Firebase、Riverpod、RevenueCat、GitHub Actions/Codemagic
+
+[One Page](https://apps.apple.com/us/app/one-page-simple-diary/id6738889085)（2024/12〜、iOS/Android）
+- 毎年書いている 1 年の振り返りで、何をしていたか思い出せないことに困っていたため、その日の出来事をさっと書けて、無限スクロールで振り返れる日記アプリを作った。操作性を優先し、広告は入れていない
+- 機能ごとにパッケージを分ける設計をこのアプリで試し、コードを [OSS として公開](https://github.com/naipaka/onepage) している
+- Flutter、melos、Drift、Riverpod
+
+[GitHub Issue Notes](https://chromewebstore.google.com/detail/github-issue-notes/iodoilfmmpjkkcamhbmdjpbjecmgladm)（2026/02、Chrome 拡張機能）
+- 追いかけている Issue や Pull Request について、なぜ追っていたかを忘れてしまう自分の困りごとを解消するために作り、Chrome Web Store で公開した（[OSS公開](https://github.com/naipaka/github-issue-notes)）
+- メモは開発者のサーバーに預けず、利用者自身の Private Gist に保存して、どの PC からでも見られるようにしている
 - 作成した背景や機能の詳細は [こちら](https://naipaka.hatenablog.com/entry/2026/02/23/110309)
+- TypeScript、React、WXT
 
-[One Page](https://apps.apple.com/us/app/one-page-simple-diary/id6738889085) (2024/12、iOS/Android)
-- 1 ページのみのシンプルな日記アプリ（[OSS公開](https://github.com/naipaka/onepage)）
-- Features Layer Architecture、melos マルチパッケージ、Drift、Riverpod
+[次いつ晴れる？](https://apps.apple.com/jp/app/%E6%AC%A1%E3%81%84%E3%81%A4%E6%99%B4%E3%82%8C%E3%82%8B/id1537055268)（2020/10、iOS）
+- 一人暮らしをしていて洗濯物を外に干したいとき、天気アプリのウィジェットには今日と明日の天気しか出なかったため、ホーム画面のウィジェットを見るだけで次に晴れる日がわかるアプリを作った（[OSS公開](https://github.com/naipaka/NextSunnyDay-iOS)）
+- SwiftUI/Combine、WidgetKit
 
-[掃除管理を家族と共有 - PikaPika](https://apps.apple.com/jp/app/%E6%8E%83%E9%99%A4%E7%AE%A1%E7%90%86%E3%82%92%E5%AE%B6%E6%97%8F%E3%81%A8%E5%85%B1%E6%9C%89-pikapika/id1521863528) (2020/07、iOS/Android)
-- 複数人で共有する掃除スケジュール管理アプリ（登録ユーザー 20 万人超、MAU 2 万超）
-- Flutter/Firebase、MVVM、Riverpod、GitHub Actions/Codemagic
-
-[次いつ晴れる？](https://apps.apple.com/jp/app/%E6%AC%A1%E3%81%84%E3%81%A4%E6%99%B4%E3%82%8C%E3%82%8B/id1537055268) (2020/10、iOS)
-- iOS ウィジェットで次いつ晴れるのかが一目でわかるアプリ（[OSS公開](https://github.com/naipaka/NextSunnyDay-iOS)）
-- SwiftUI/Combine、MVVM、iOS14 ウィジェット
-
-[PinMusubi](https://apps.apple.com/jp/app/pinmusubi-%E4%B8%AD%E9%96%93%E5%9C%B0%E7%82%B9%E3%81%8B%E3%82%89%E6%8E%A2%E3%81%99%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88%E6%A4%9C%E7%B4%A2%E3%82%A2%E3%83%97%E3%83%AA/id1489074206)（2019）
-- 地図上の中間地点からスポットを探せるアプリ
-- Swift/UIKit、MVC
+[PinMusubi](https://apps.apple.com/jp/app/pinmusubi-%E4%B8%AD%E9%96%93%E5%9C%B0%E7%82%B9%E3%81%8B%E3%82%89%E6%8E%A2%E3%81%99%E3%82%B9%E3%83%9D%E3%83%83%E3%83%88%E6%A4%9C%E7%B4%A2%E3%82%A2%E3%83%97%E3%83%AA/id1489074206)（2019/11、iOS）
+- 離れて住む人と会うとき、お互いの中間地点の周辺で遊べる場所を探せるアプリを作った。NEC 在籍中に、企画、デザインから公開まで自分で進めた
+- Swift/UIKit
 
 ## アウトプット
 
@@ -207,6 +216,6 @@ Altive 社内で使用している OSS への Pull Request や Issue 作成を�
 
 ---
 
-最終更新日： 2026 年 9 月 27 日
+最終更新日： 2026 年 9 月 28 日
 
 以上
