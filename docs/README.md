@@ -19,20 +19,20 @@
 - 開発基盤・生産性改善：CI/CD の設計・構築・運用、Custom Lint ルールの設計・実装、OpenAPI を用いた API 連携基盤の構築
 - チーム開発とプロジェクト推進：アプリ側からの API 仕様の起草、レビュー方法の改善、受託案件での進行管理と顧客との窓口
 - Firebase・Go によるバックエンド開発：Firestore・Cloud Functions の設計・実装、Go REST API、Cloud Run・Cloud SQL・Docker を用いた実装
-- OSS 貢献・技術発信：Flutter/Dart 関連の Issue・PR、個人アプリの OSS 公開、30 本以上の技術記事執筆、Flutter Tokyo での登壇
+- OSS 貢献・技術発信：Flutter/Dart 関連の Issue・PR、個人アプリの OSS 公開、35 本以上の技術記事執筆、Flutter Tokyo での登壇
 
 ## 技術スタック
 
-| 技術                 | 経験年数 | 詳細                                                                                                                                                                 |
-| -------------------- | -------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Flutter / Dart       | 5年      | モバイルアプリの新規開発と既存アプリの改善を担当<br>アーキテクチャ設計、パッケージ分割、コードレビュー、CI/CD の整備<br>iOS/Android/macOS に対応したアプリの開発経験 |
-| Firebase             | 5年      | Firestore の設計や Functions を使った API 実装を担当<br>認証、ストレージ、アナリティクスなど、アプリ運用に必要な範囲を一通り扱う                                     |
-| Go                   | 1年      | 自社アプリ向けの API を新規で開発<br>ルーティング、DB 設計、認証まわり、レシート検証処理の実装を担当                                                                 |
-| Swift / SwiftUI      | 1年      | iOS アプリの機能追加や不具合調査を担当<br>Method Channel を使用したネイティブ連携機能の実装                                                                          |
-| Kotlin / Java        | 1年      | BtoB システムの保守や Method Channel を使用したネイティブ連携機能の実装                                                                                             |
-| TypeScript / Next.js | 1年      | 自社アプリの Web アプリやバックエンドの機能追加を担当                                                                                                                |
-| GCP / Docker         | 1年      | Cloud Run、Cloud SQL を用いたデプロイ環境を構築<br>API 開発のローカル環境を Docker Compose で整備                                                                    |
-| AWS                  | 1年未満  | Lambda、Cognito、S3、CloudWatch を使用<br>iOS アプリでの認証機能や定期実行処理を実装                                                                                 |
+| 技術                  | 経験年数 | 詳細                                                                                                                                                                                                  |
+| --------------------- | -------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Flutter / Dart        | 5年以上  | モバイルアプリの新規開発、リプレイス、既存アプリの機能拡張を担当<br>アーキテクチャ設計、パッケージ分割、コードレビュー、CI/CD の整備<br>iOS/Android/macOS に対応したアプリの開発経験                    |
+| Firebase              | 5年以上  | Firestore の設計や Functions を使った API 実装を担当<br>認証、ストレージ、アナリティクスなど、アプリ運用に必要な範囲を一通り扱う                                                                      |
+| Go                    | 1年      | 自社アプリの API を一人で新規開発し、リリース後の機能追加も担当<br>DB 設計、認証、サブスクリプションのレシート検証、画像のサムネイル生成を実装                                                         |
+| Swift / SwiftUI       | 1年      | iOS アプリの機能追加や不具合調査を担当<br>Pigeon や Method Channel を使用したネイティブ連携機能の実装（写真からの動画生成、アプリ内課金、Apple Watch との連携など）<br>個人開発で UIKit、SwiftUI、WidgetKit を使ったアプリを公開 |
+| Kotlin / Java         | 1年      | BtoB システムの保守や Method Channel を使用したネイティブ連携機能の実装                                                                                                                              |
+| TypeScript            | 1年      | Cloud Functions を使い、業務と個人開発の複数のアプリでバックエンドの処理を実装<br>個人開発で React と WXT を使った Chrome 拡張機能を公開                                                               |
+| Google Cloud / Docker | 1年      | Cloud Run、Cloud SQL を用いたデプロイ環境を構築<br>API 開発のローカル環境を Docker Compose で整備                                                                                                     |
+| AWS                   | 1年未満  | Lambda、Cognito、S3、CloudWatch を使用<br>iOS アプリでの認証機能や定期実行処理を実装                                                                                                                  |
 
 ## 職務経歴
 
@@ -46,7 +46,7 @@ CI/CD、Custom Lint、OpenAPI による自動生成を整備し、リリース�
 
 個人開発では、登録ユーザー 20 万人超の掃除管理アプリを 6 年間運用しています。
 
-Flutter/Dart を中心に 30 本以上の技術記事を執筆し、Flutter Tokyo ではアプリの自動デプロイについて登壇しました。
+Flutter/Dart を中心に 35 本以上の技術記事を執筆し、Flutter Tokyo ではアプリの自動デプロイについて登壇しました。
 
 ### Altive 株式会社（2023/04〜現在）
 
@@ -95,9 +95,7 @@ MVV の策定と経営ロードマップのたたき台づくり、リモート�
 
 ### NEC ソリューションイノベータ株式会社（2018/04〜2019/12）
 
-エンタープライズシステム開発に従事しました。
-
-Java や TypeScript を用いた BtoB システム開発を経験し、要件定義から設計、実装、テストまでの一連のプロセスを習得しました。
+エンタープライズ向けの BtoB システムの開発で、Java や TypeScript を用いて、要件定義から設計、実装、テストまでの一連の流れを身につけました。
 
 業務でプログラミングを学ぶうちに自分でもアプリを作れると気づき、個人で iOS アプリを作って App Store で公開しました。これがモバイルアプリ開発へ進むきっかけになりました。
 
@@ -105,7 +103,8 @@ Java や TypeScript を用いた BtoB システム開発を経験し、要件定
 
 ### 副業・業務委託（2020/11〜休止中）
 
-Flutter を用いたモバイルアプリ開発を中心に複数のプロジェクトに参画し、CI/CD 環境構築、コード品質向上、チーム開発プロセス改善などに取り組みました。
+Flutter を用いたモバイルアプリ開発を中心に、複数のプロジェクトに参画しました。
+開発途中のアプリを引き継いだプロジェクトでは、静的解析を導入して使われていないコードを整理し、TestFlight と Google Play への配布を GitHub Actions と fastlane で自動化しました。
 
 プロジェクトの一部は、2023 年 4 月の Altive 株式会社への参画を機に本業として引き継いでいます。
 
@@ -113,32 +112,22 @@ Flutter を用いたモバイルアプリ開発を中心に複数のプロジェ
 
 #### 自社
 
-Altive 社内で使用している OSS への Pull Request や Issue 作成を積極的に行っています。
+Altive が公開している OSS では、次の開発を担当しました。
 
-- [flutter_app_template](https://github.com/altive/flutter_app_template): Flutter アプリのテンプレート
-- [altfire](https://github.com/altive/altfire): Firebase 関連のラッパーパッケージ
-- [altive_lints](https://pub.dev/packages/altive_lints): Dart の Lint ルール集
-- [altive_handbook](https://github.com/altive/handbook): Altive 社内のドキュメント集
+- [altive_lints](https://pub.dev/packages/altive_lints): Dart の Lint ルール集。Custom Lint のルールを設計・実装し、社外のリポジトリでも使われている
+- [flutter_app_template](https://github.com/altive/flutter_app_template): Flutter アプリのテンプレート。使いながら気づいた改善点を自ら起票して実装
+- [altfire](https://github.com/altive/altfire): Firebase の各機能を包むパッケージ群。中心となって開発して公開し、その後、廃止を提案してアーカイブ
 
 #### 外部
 
-業務や個人開発で利用したパッケージに不具合等を見つけた際は Issue や PR を作成して貢献することを意識しています。
+業務や個人開発で使っているパッケージに不具合を見つけたときは、原因を調べて、開発元へ Issue や PR で報告しています。
 
-- [day_night_time_picker](https://github.com/subhamayd2/day_night_time_picker): RouteSettings の引数を追加する PR を作成
-- [swagger_parser](https://github.com/Carapacik/swagger_parser): 不具合に関する Issue を作成
-- [flutter_stripe](https://github.com/flutter-stripe/flutter_stripe): 不具合に関する Issue 作成と PR を作成
-- [dart-lang/native](https://github.com/dart-lang): ffigen の不具合を修正する PR を作成
-- [flutter/website](https://github.com/flutter/website): Flutter のドキュメントの誤りを修正する PR を作成
-- [cli_launcher](https://github.com/blaugold/cli_launcher): 不具合に関する Issue 作成と PR を作成
-- [flutter](https://github.com/flutter/flutter): テストリファクタリングの PR を作成
-
-#### 個人
-
-リリースしている一部のアプリを OSS として公開しています。
-
-- [GitHub Issue Notes](https://github.com/naipaka/github-issue-notes): GitHub の Issue や Pull Request のページに個人的なメモを追加できる Chrome 拡張機能
-- [One Page](https://github.com/naipaka/onepage): その日の出来事をさっと書いて、無限スクロールで振り返れる日記アプリ
-- [次いつ晴れる？](https://github.com/naipaka/NextSunnyDay-iOS): ホーム画面のウィジェットを見るだけで次に晴れる日がわかるアプリ
+- [dart-lang/native](https://github.com/dart-lang/native): ffigen が標準以外の場所にある Xcode の SDK を見つけられない不具合を報告し、修正する PR を作成
+- [flutter/website](https://github.com/flutter/website): FFI のドキュメントの誤りを修正する PR を作成
+- [cli_launcher](https://github.com/blaugold/cli_launcher): melos の内部で使われているパッケージ。不具合 2 件を報告し、それぞれ修正する PR を作成
+- [flutter_stripe](https://github.com/flutter-stripe/flutter_stripe): 決済まわりの不具合 2 件を報告し、PR を作成
+- [swagger_parser](https://github.com/Carapacik/swagger_parser): コード生成の不具合 2 件を報告
+- [day_night_time_picker](https://github.com/subhamayd2/day_night_time_picker): RouteSettings を渡せるようにする PR を作成
 
 ### 個人開発
 
@@ -176,33 +165,30 @@ Altive 社内で使用している OSS への Pull Request や Issue 作成を�
 ### 記事執筆
 
 - [Zenn](https://zenn.dev/naipaka)
-  - 主に Flutter/Dart 関連の記事を執筆
+  - 業務で得た Flutter/Dart の知見（Custom Lint、自動デプロイ、Pigeon など）を執筆
 - [Qiita](https://qiita.com/naipaka)
   - Swift を使用した iOS アプリ開発における技術記事を中心に執筆
 - [ブログ](https://naipaka.hatenablog.com/)
-  - 主に 1 年の振り返り記事などの個人的な内容を執筆
+  - 個人開発で試したこと（Flutter の E2E テスト、FFI、CI の Self-hosted runner への移行、AI エージェントを使った開発など）を執筆
 
 ### 登壇
 
-- [【第1回】初心者にやさしいLT会&交流会 in品川](https://attakakute-yasasiikai.connpass.com/event/114652/) にてコミュニティ参加のメリットについて発表
 - [Flutter Tokyo #5](https://flutter-jp.connpass.com/event/346464/) にて [Flutterアプリ自動デプロイフロー](https://docs.google.com/presentation/d/1l0zFEQcM8y2JQ44kz8NOul9U3ywWgJHHfofVhzxSKmU/edit#slide=id.g3325192d92d_1_5) について発表
 
 ## 意欲・興味
 
-- これまでの経験を活かし、サービスを成長させるフェーズに携わりたい
 - Flutter を中心に、バックエンドや Web 開発など、プロジェクトに応じて幅を広げたい
-- ワンチーム感を持って働きたい
+- 同じプロダクトに複数のエンジニアで向き合い、設計や実装の方針を日常的に話し合えるチームで開発したい
+- 技術的な提案や改善を自分から出しながら、レビューや設計の議論でほかのエンジニアからフィードバックを受けて、判断の精度を上げていきたい
 
 ## 価値観
 
 - ユーザーのためになっていると実感できたときに一番幸せを感じる
-  - 「このために生まれてきたんじゃないか」と思えるほど嬉しい
+  - 職場の清掃を担当している人から「頑張りに誰も気づいてくれない中で、このアプリだけが褒めてくれる。もう少しこの仕事を頑張ってみる」というレビューが届いたときは、「このために生まれてきた」と思えるほど嬉しかった
 - 業務外での開発を通じて得た知見をチームに共有し、貢献することを重視
 - 心理的安全性が高い場所で、仕事のパフォーマンスを発揮できる
   - 誰もが意見を言える、レビューの指摘にトゲがない、チームのメンバーを信頼できるなど
-- チーム一丸となってプロダクトをよりよくしていくことに憧れがある
-- ワンチームで目標やビジョンに向かって進んでいきたい
-  - 現在の会社では MVV の策定を提言したり、目標やロードマップの策定を提案
+- 同じ船に乗ったチームのみんなで、同じ目的地に向かって進みたい
 
 ## 資格
 
