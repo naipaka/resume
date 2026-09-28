@@ -6,35 +6,29 @@ on:
     tags:
       - "v*"
 
+permissions:
+  contents: write
+
 jobs:
   build:
     name: build pdf and upload release
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v7
       - uses: actions/setup-node@v7
         with:
-          node-version: "16"
-      - run: npm install
+          node-version: "24"
+          cache: yarn
+      - run: yarn install --frozen-lockfile
       - name: build pdf
         run: npm run build:pdf
       - name: create release
-        id: create_release
-        uses: actions/create-release@v1
+        if: startsWith(github.ref, 'refs/tags/v')
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          draft: false
-          prerelease: false
-      - name: upload Release Asset
-        id: upload-release-asset
-        uses: actions/upload-release-asset@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./docs/README.pdf
-          asset_name: resume.pdf
-          asset_content_type: application/pdf
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp docs/README.pdf "$RUNNER_TEMP/resume.pdf"
+          gh release create "$GITHUB_REF_NAME" "$RUNNER_TEMP/resume.pdf" \
+            --verify-tag \
+            --title "Release $GITHUB_REF" \
+            --notes ""
