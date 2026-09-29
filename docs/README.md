@@ -44,6 +44,8 @@
 
 CI/CD、Custom Lint、OpenAPI による自動生成を整備し、リリースやコードレビュー、API 連携を仕組みで支えてきました。
 
+AI エージェントを前提に開発しており、AI が書いたコードの品質を人のレビューだけに頼らず lint やゴールデンテストで担保しています。また、AI の活用を自分の開発だけで終わらせず、業務の内外で試して有効だったツールや使い方を社内に共有しています。
+
 個人開発では、登録ユーザー 20 万人超の掃除管理アプリを 6 年間運用しています。
 
 Flutter/Dart を中心に 35 本以上の技術記事を執筆し、Flutter Tokyo ではアプリの自動デプロイについて登壇しました。
@@ -116,7 +118,7 @@ Altive が公開している OSS では、次の開発を担当しました。
 
 - [altive_lints](https://pub.dev/packages/altive_lints): Dart の Lint ルール集。Custom Lint のルールを設計・実装し、社外のリポジトリでも使われている
 - [flutter_app_template](https://github.com/altive/flutter_app_template): Flutter アプリのテンプレート。使いながら気づいた改善点を自ら起票して実装
-- [altfire](https://github.com/altive/altfire): Firebase の各機能を包むパッケージ群。中心となって開発して公開し、その後、廃止を提案してアーカイブ
+- [altfire](https://github.com/altive/altfire): Firebase の各機能を包むパッケージ群。中心となって開発して公開し、その後、AI で公式 SDK を直接扱うコードも書きやすくなったことから、廃止を提案してアーカイブ
 
 #### 外部
 
@@ -202,6 +204,6 @@ Altive が公開している OSS では、次の開発を担当しました。
 
 ---
 
-最終更新日： 2026 年 9 月 28 日
+最終更新日： 2026 年 9 月 29 日
 
 以上
