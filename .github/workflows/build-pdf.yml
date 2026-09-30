@@ -20,6 +20,9 @@ jobs:
           node-version: "24"
           cache: yarn
       - run: yarn install --frozen-lockfile
+      # Ubuntu 23.10+ の AppArmor が非特権ユーザー名前空間を制限し、Chrome のサンドボックスが起動できないため解除する
+      - name: allow unprivileged user namespaces for chrome sandbox
+        run: sudo sysctl -w kernel.apparmor_restrict_unprivileged_userns=0
       - name: build pdf
         run: npm run build:pdf
       - name: create release
