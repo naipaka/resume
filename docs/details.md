@@ -89,8 +89,6 @@ Android でカードブランドの画像が表示されない問題は、案件
 
 サーバー側で文言を管理したいという要望に対しては、以前に検証した内容をまとめた記事をもとに費用対効果が合わないことを説明し、Flutter 公式の方式に沿ってアプリ内で管理する方針になりました。
 
-参考：[flutter_stripe Issue #2280](https://github.com/flutter-stripe/flutter_stripe/issues/2280)、[Issue #2283](https://github.com/flutter-stripe/flutter_stripe/issues/2283)、[PR #2284](https://github.com/flutter-stripe/flutter_stripe/pull/2284)
-
 参考：[iOS / Android アプリの多言語対応をサーバー側で管理する方法を検討してみた](https://zenn.dev/naipaka/articles/mobile-app-i18n-server-management-consideration)
 
 #### カップル向けアプリ開発
