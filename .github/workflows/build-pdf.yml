@@ -33,5 +33,5 @@ jobs:
           cp docs/README.pdf "$RUNNER_TEMP/resume.pdf"
           gh release create "$GITHUB_REF_NAME" "$RUNNER_TEMP/resume.pdf" \
             --verify-tag \
-            --title "Release $GITHUB_REF" \
+            --title "$GITHUB_REF_NAME" \
             --notes ""
