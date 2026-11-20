@@ -10,15 +10,15 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ```bash
 # 依存関係のインストール
-yarn install
+pnpm install
 bundle install
 
 # テキストリント（日本語校正）
-yarn lint
-yarn lint --fix    # 自動修正
+pnpm lint
+pnpm lint --fix    # 自動修正
 
 # PDF 生成
-yarn build:pdf     # docs/README.pdf を生成
+pnpm build:pdf     # docs/README.pdf を生成
 
 # Jekyll ローカルプレビュー
 bundle exec jekyll serve --source docs --config docs/_config.yml
@@ -33,13 +33,13 @@ bundle exec jekyll serve --source docs --config docs/_config.yml
 
 ### CI/CD（GitHub Actions）
 
-- **lint-text.yml** — 全プッシュで `yarn lint` を実行
+- **lint-text.yml** — 全プッシュで `pnpm lint` を実行
 - **build-pdf.yml** — `v*` タグで PDF をビルドし GitHub Release にアップロード
 - **create-issue.yml** — 3 ヶ月ごとに更新リマインドの Issue を自動作成
 
 ### Git フック
 
-- **pre-commit**（Husky）— コミット前に `npm run lint` を自動実行
+- **pre-commit**（Husky）— コミット前に `pnpm lint` を自動実行
 
 ## テキストリントのルール
 

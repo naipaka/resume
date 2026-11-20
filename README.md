@@ -15,7 +15,7 @@
 [textlint](https://github.com/textlint/textlint) での自動校正が可能です。
 
 ```
-$ yarn lint --fix
+$ pnpm lint --fix
 ```
 
 [husky](https://github.com/typicode/husky) によって commit 前にも自動で実行されます。  
@@ -26,7 +26,7 @@ $ yarn lint --fix
 [md-to-pdf](https://www.npmjs.com/package/md-to-pdf) での PDF 生成が可能です。
 
 ```
-$ yarn build:pdf
+$ pnpm build:pdf
 ```
 
 The output PDF can be styled as you like with CSS. Edit the `pdf-configs/style.css`.
