@@ -7,9 +7,6 @@
     "lint": "textlint docs/README.md",
     "build:pdf": "md-to-pdf docs/README.md --config-file ./pdf-configs/config.js"
   },
-  "engines": {
-    "node": "24.x"
-  },
   "keywords": [],
   "devDependencies": {
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^2.0.1",
@@ -35,9 +32,12 @@
     "textlint-rule-prh": "^6.1.0",
     "textlint-rule-spellcheck-tech-word": "^5.0.0"
   },
-  "resolutions": {
-    "**/serve-handler/minimatch": "3.1.4",
-    "**/prh/diff": "4.0.4",
-    "**/table/ajv": "8.18.0"
+  "packageManager": "pnpm@12.21.0",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^26.13.1",
+      "onFail": "download"
+    }
   }
 }
